@@ -8,22 +8,22 @@ import time
 
 start = time.time()
 
-import argparse
-import cv2
+#import argparse
+#import cv2
 import os
 import pickle
 import sys
 
-from operator import itemgetter
+#from operator import itemgetter
 
 import numpy as np
 np.set_printoptions(precision=2)
 import pandas as pd
 
-import openface
+#import openface
 
-from sklearn.pipeline import Pipeline
-from sklearn.lda import LDA
+#from sklearn.pipeline import Pipeline
+#from sklearn.lda import LDA
 from sklearn.preprocessing import LabelEncoder
 from sklearn.svm import SVC
 from sklearn.grid_search import GridSearchCV
@@ -31,13 +31,13 @@ from sklearn.mixture import GMM
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split,  KFold
-fileDir = os.path.dirname(os.path.realpath(__file__))
-modelDir = os.path.join(fileDir, '..', 'models')
-dlibModelDir = os.path.join(modelDir, 'dlib')
-openfaceModelDir = os.path.join(modelDir, 'openface')
+#fileDir = os.path.dirname(os.path.realpath(__file__))
+#modelDir = os.path.join(fileDir, '..', 'models')
+#dlibModelDir = os.path.join(modelDir, 'dlib')
+#openfaceModelDir = os.path.join(modelDir, 'openface')
 
 
-def train(classfier, data,labelsNum,nClasses,):
+def train(classfier, data, labelsNum, nClasses,):
     print("Loading embeddings.")
     fname = "{}/labels.csv".format(workDir)
     labels = data[:,0]
@@ -149,9 +149,3 @@ if __name__ == '__main__':
 
 
 
-
-
-
-
-
-    
