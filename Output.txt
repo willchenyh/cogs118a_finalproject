@@ -1,0 +1,276 @@
+Loading embeddings.
+(997, 128)
+(997, 1) (997, 128)
+----------------------------------------------------
+Using classifier GridSearchSvm
+[80,20] [Train,Test] Split
+Training for 50 classes.
+Took 53.8950090408 seconds
+	Testing error is 0.015
+Took 0.0481081008911 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier LinearSvm
+[80,20] [Train,Test] Split
+Training for 50 classes.
+Took 0.760406017303 seconds
+	Testing error is 0.015
+Took 0.0481350421906 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier DecisionTree
+[80,20] [Train,Test] Split
+Training for 50 classes.
+Took 0.28494977951 seconds
+	Testing error is 0.455
+Took 0.00279903411865 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier AdaBoost
+[80,20] [Train,Test] Split
+Training for 50 classes.
+Took 37.5577580929 seconds
+	Testing error is 0.16
+Took 0.0558660030365 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier KNN
+[80,20] [Train,Test] Split
+Training for 50 classes.
+Took 0.010470867157 seconds
+	Testing error is 0.045
+Took 0.0482761859894 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier RandomForest
+[80,20] [Train,Test] Split
+Training for 50 classes.
+Took 0.200053930283 seconds
+	Testing error is 0.195
+Took 0.0118720531464 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier GridSearchSvm
+[60,40] [Train,Test] Split
+Training for 50 classes.
+Took 37.08122015 seconds
+	Testing error is 0.0451127819549
+Took 0.0796020030975 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier LinearSvm
+[60,40] [Train,Test] Split
+Training for 50 classes.
+Took 0.556313991547 seconds
+	Testing error is 0.0451127819549
+Took 0.0738410949707 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier DecisionTree
+[60,40] [Train,Test] Split
+Training for 50 classes.
+Took 0.235411882401 seconds
+	Testing error is 0.551378446115
+Took 0.0047550201416 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier AdaBoost
+[60,40] [Train,Test] Split
+Training for 50 classes.
+Took 26.7164361477 seconds
+	Testing error is 0.248120300752
+Took 0.104689121246 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier KNN
+[60,40] [Train,Test] Split
+Training for 50 classes.
+Took 0.008220911026 seconds
+	Testing error is 0.0576441102757
+Took 0.0782630443573 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier RandomForest
+[60,40] [Train,Test] Split
+Training for 50 classes.
+Took 0.148681879044 seconds
+	Testing error is 0.208020050125
+Took 0.0135259628296 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier GridSearchSvm
+[50,50] [Train,Test] Split
+Training for 50 classes.
+/home/max/anaconda2/lib/python2.7/site-packages/sklearn/cross_validation.py:552: Warning: The least populated class in y has only 3 members, which is too few. The minimum number of labels for any class cannot be less than n_folds=5.
+  % (min_labels, self.n_folds)), Warning)
+Took 28.8612320423 seconds
+	Testing error is 0.0721442885772
+Took 0.0796740055084 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier LinearSvm
+[50,50] [Train,Test] Split
+Training for 50 classes.
+Took 0.460148096085 seconds
+	Testing error is 0.0721442885772
+Took 0.0801529884338 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier DecisionTree
+[50,50] [Train,Test] Split
+Training for 50 classes.
+Took 0.194403171539 seconds
+	Testing error is 0.583166332665
+Took 0.00602102279663 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier AdaBoost
+[50,50] [Train,Test] Split
+Training for 50 classes.
+Took 22.6015930176 seconds
+	Testing error is 0.294589178357
+Took 0.231884002686 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier KNN
+[50,50] [Train,Test] Split
+Training for 50 classes.
+Took 0.00814890861511 seconds
+	Testing error is 0.0521042084168
+Took 0.0886900424957 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier RandomForest
+[50,50] [Train,Test] Split
+Training for 50 classes.
+Took 0.142659187317 seconds
+	Testing error is 0.2625250501
+Took 0.0167851448059 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier GridSearchSvm
+[40,60] [Train,Test] Split
+Training for 50 classes.
+Took 22.0857460499 seconds
+	Testing error is 0.0634390651085
+Took 0.0883009433746 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier LinearSvm
+[40,60] [Train,Test] Split
+Training for 50 classes.
+Took 0.368473052979 seconds
+	Testing error is 0.108514190317
+Took 0.0824930667877 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier DecisionTree
+[40,60] [Train,Test] Split
+Training for 50 classes.
+Took 0.137845993042 seconds
+	Testing error is 0.632721202003
+Took 0.00996589660645 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier AdaBoost
+[40,60] [Train,Test] Split
+Training for 50 classes.
+Took 17.5058040619 seconds
+	Testing error is 0.30550918197
+Took 0.156435012817 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier KNN
+[40,60] [Train,Test] Split
+Training for 50 classes.
+Took 0.00545787811279 seconds
+	Testing error is 0.0550918196995
+Took 0.0754859447479 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier RandomForest
+[40,60] [Train,Test] Split
+Training for 50 classes.
+Took 0.111404895782 seconds
+	Testing error is 0.30550918197
+Took 0.0164811611176 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier GridSearchSvm
+[20,80] [Train,Test] Split
+Training for 50 classes.
+/home/max/anaconda2/lib/python2.7/site-packages/sklearn/cross_validation.py:552: Warning: The least populated class in y has only 1 members, which is too few. The minimum number of labels for any class cannot be less than n_folds=5.
+  % (min_labels, self.n_folds)), Warning)
+Took 8.98284316063 seconds
+	Testing error is 0.109022556391
+Took 0.0684790611267 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier LinearSvm
+[20,80] [Train,Test] Split
+Training for 50 classes.
+Took 0.171267986298 seconds
+	Testing error is 0.298245614035
+Took 0.0671751499176 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier DecisionTree
+[20,80] [Train,Test] Split
+Training for 50 classes.
+Took 0.0666217803955 seconds
+	Testing error is 0.745614035088
+Took 0.00832009315491 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier AdaBoost
+[20,80] [Train,Test] Split
+Training for 50 classes.
+Took 8.37769007683 seconds
+	Testing error is 0.540100250627
+Took 0.225660085678 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier KNN
+[20,80] [Train,Test] Split
+Training for 50 classes.
+Took 0.00494885444641 seconds
+	Testing error is 0.135338345865
+Took 0.0600628852844 seconds
+----------------------------------------------------
+
+----------------------------------------------------
+Using classifier RandomForest
+[20,80] [Train,Test] Split
+Training for 50 classes.
+Took 0.084666967392 seconds
+	Testing error is 0.451127819549
+Took 0.0316951274872 seconds
+----------------------------------------------------
